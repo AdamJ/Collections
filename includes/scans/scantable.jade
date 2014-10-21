@@ -1,0 +1,44 @@
+h1 Scans
+table.table
+    // scan #1
+    tr
+        td <big> Tutorial Files </big>
+            <small> started 10 minutes ago</small>
+    tr
+        td
+            .progress
+                .progress-bar.progress-bar-striped.progress-bar-warning.active(role="progressbar", aria-valuenow="5",aria-volumemin="0",aria-value-max="100",style="width: 5%")
+                    | bootstrap.css
+                | <small> &nbsp; 5% Complete </small>
+                .btn.stop-progress.fa.fa-close.pull-right(data-toggle="tooltip",data-placement="right",title="cancel scan")
+    // scan #2
+    tr
+        td <big> Tutorial Files </big>
+            <small> started 55 minutes ago</small>
+    tr
+        td
+            .progress
+                .progress-bar.progress-bar-striped.progress-bar-warning.active(role="progressbar", aria-valuenow="45",aria-volumemin="0",aria-value-max="100",style="width: 45%")
+                    | readme.txt
+                | <small> &nbsp; 45% Complete </small>
+                .btn.stop-progress.fa.fa-close.pull-right(data-toggle="tooltip",data-placement="right",title="cancel scan")
+    // scan #3
+    tr
+        td <big> Tutorial Files </big>
+            <small> started 1 hour 40 minutes ago</small>
+    tr
+        td
+            .progress
+                .progress-bar.progress-bar-striped.active(role="progressbar", aria-valuenow="75",aria-volumemin="0",aria-value-max="100",style="width: 75%")
+                    | super.js
+                | <small> &nbsp; 75% Complete </small>
+                .btn.stop-progress.fa.fa-close.pull-right(data-toggle="tooltip",data-placement="right",title="cancel scan")
+    // scan #4
+    tr
+        td <big> Tutorial Files </big>
+            <small> started 4 hours ago</small>
+    tr
+        td
+            .progress
+                .progress-bar.progress-bar-success(role="progressbar", aria-valuenow="100",aria-volumemin="0",aria-value-max="100",style="width: 100%")
+                    | 100% Complete
