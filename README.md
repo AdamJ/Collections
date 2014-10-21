@@ -9,4 +9,6 @@ Any .html file will open in a browser and corresponding .html files should work 
 
 ===========
 
-This was written using Jade, CSS3, HTML5, LESS and utilized Bootstrap 3 and Bower Components.
+- This was written using Jade, CSS3, HTML5, LESS and utilized Bootstrap 3 and Bower Components.
+
+- Code was compiled using CodeKit on Mac OSX Mavericks/Yosemite.
