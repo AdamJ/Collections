@@ -7,6 +7,12 @@ For certain aspects, MAMP is required.
 
 Any .html file will open in a browser and corresponding .html files should work accordingly.
 
+The sites can be found here:
+
+* [adamjolicoeur](http://www.adamjolicoeur.com)
+
+* [The Scouters Lodge](http://www.thescouterslodge.org)
+
 ===========
 
 - This was written using Jade, CSS3, HTML5, LESS and utilized Bootstrap 3 and Bower Components.
